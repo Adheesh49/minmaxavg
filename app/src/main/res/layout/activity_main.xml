@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
         android:ems="10"
-        android:text="First Number:"
+        android:hint="First Number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,8 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Second Number:"
+        android:hint="Second Number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FirstNumber" />
@@ -36,8 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Third Number:"
+        android:hint="Third Number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SecondNumber" />
