@@ -8,7 +8,6 @@
     android:background="#649AE6"
     tools:context=".MainActivity">
 
-    <!-- Title TextView -->
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
@@ -20,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- First EditText -->
     <EditText
         android:id="@+id/FirstNumber"
         android:layout_width="250dp"
@@ -35,7 +33,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Second EditText -->
     <EditText
         android:id="@+id/SecondNumber"
         android:layout_width="250dp"
@@ -50,7 +47,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Third EditText -->
     <EditText
         android:id="@+id/ThirdNumber"
         android:layout_width="250dp"
@@ -65,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Min Button -->
     <Button
         android:id="@+id/btmMin"
         android:layout_width="0dp"
@@ -80,7 +75,6 @@
         app:layout_constraintEnd_toStartOf="@id/btnMax"
         app:layout_constraintHorizontal_chainStyle="spread" />
 
-    <!-- Max Button -->
     <Button
         android:id="@+id/btnMax"
         android:layout_width="0dp"
@@ -94,7 +88,6 @@
         app:layout_constraintStart_toEndOf="@id/btmMin"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Average Button -->
     <Button
         android:id="@+id/btnAvg"
         android:layout_width="0dp"
@@ -107,7 +100,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Output TextView -->
     <TextView
         android:id="@+id/txtOutput"
         android:layout_width="wrap_content"
